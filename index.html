@@ -7,39 +7,45 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to this AI french poem generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          autofocus
-          required
-          placeholder="write a poem to be generated"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        la tombe dit a la rose
-        <br />
-        Des pleurs dont l'aube t'arrose
-      </div>
-    </main>
-    <footer>
-      This AI poem generator is coded by
-      <a href="https://github.com/de-hinx" target="_blank"> Anyanwu Divine</a>,
-      is opensourced on
-      <a
-        href="https://github.com/de-hinx/dee-french-poem-generator"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a href="https://clinquant-horse-421aa8.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+      <main>
+        <div class="form-container">
+          <form action="">
+            <input
+              type="text"
+              autofocus
+              required
+              placeholder="Enter a poem to be generated"
+              class="generate"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="example">i.e: Flower, Paris or Cheese</div>
+        </div>
+        <div>
+          la tombe dit a la rose
+          <br />
+          Des pleurs dont l'aube t'arrose
+        </div>
+      </main>
+      <footer>
+        This AI poem generator is coded by
+        <a href="https://github.com/de-hinx" target="_blank"> Anyanwu Divine</a
+        >, is opensourced on
+        <a
+          href="https://github.com/de-hinx/dee-french-poem-generator"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a href="https://clinquant-horse-421aa8.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
