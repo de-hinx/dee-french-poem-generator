@@ -60,3 +60,6 @@ footer {
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-top: 15px;
 }
+.poem strong {
+  color: #885df1;
+}
