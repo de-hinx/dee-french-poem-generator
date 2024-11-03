@@ -7,7 +7,7 @@ function search(event) {
 function generate(input) {
   let key = `77bdfc047f054f23dabe6bdof740t2a3`;
   let prompt = `generate a poem about ${input}`;
-  let context = `you are an AI with vast knowledge in french and poetry, write a poem that is short, precise and lovely. let there be spacing between each line of the poem`;
+  let context = `you are an AI with vast knowledge in french poetry, generate a poem according to the user input in the prompt, it should follow basic html format and be a maximum of five lines, the lines should have break lines seperated by a <br/> element and the poem should be signed by 'SheCodes AI' in <strong> element at the end of the poem`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${key}`;
   console.log(input);
   axios.get(apiUrl).then(poem);
